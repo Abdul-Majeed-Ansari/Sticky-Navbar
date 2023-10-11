@@ -1,0 +1,49 @@
+*{
+    padding: 0px;
+    margin: 0;
+}
+body{
+    height: 200vh;
+}
+#header{
+    text-align: center;
+}
+#logo{
+    width: 12vw;
+    height: auto;
+    margin: 50px;
+}
+#menu-bar{
+    text-align: center;
+    background-color: blueviolet;
+}
+
+#menu-bar ul li{
+    display:inline-block;
+    padding: 15px;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+}
+h1{
+    text-align: center;
+    text-decoration: underline;
+    margin: 80px;
+}
+#about-us{
+    width: 100%;
+    text-align: center;
+    /* display: flex; */
+    /* justify-content: center; */
+}
+p{
+    font-size: 18px;
+    text-align: justify;
+    padding: 0px 30px;
+}
+.sticky{
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
